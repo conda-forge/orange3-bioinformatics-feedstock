@@ -1,6 +1,6 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "3.0.7" %}
-{% set sha256 = "aa274301ce732c8f2bd5d6d0dc7c9f980cfee9422b50ae7a9827c6f5b3992f4e" %}
+{% set version = "3.0.8" %}
+{% set sha256 = "da1382c3c62fe7532ee0a43c8a1cfe1caed51b09e6bef2356dce23f25055d03f" %}
 
 package:
   name: {{ name|lower }}

@@ -18,14 +18,16 @@ from the Orange data mining framework.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/orange3-bioinformatics-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/orange3-bioinformatics-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/orange3-bioinformatics-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/orange3-bioinformatics-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/orange3-bioinformatics-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/orange3-bioinformatics-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/orange3-bioinformatics-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/orange3-bioinformatics-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/orange3-bioinformatics-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/orange3-bioinformatics-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/orange3-bioinformatics-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/orange3-bioinformatics-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/orange3-bioinformatics/badges/version.svg)](https://anaconda.org/conda-forge/orange3-bioinformatics)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/orange3-bioinformatics/badges/downloads.svg)](https://anaconda.org/conda-forge/orange3-bioinformatics)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-orange3--bioinformatics-green.svg)](https://anaconda.org/conda-forge/orange3-bioinformatics) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/orange3-bioinformatics.svg)](https://anaconda.org/conda-forge/orange3-bioinformatics) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/orange3-bioinformatics.svg)](https://anaconda.org/conda-forge/orange3-bioinformatics) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/orange3-bioinformatics.svg)](https://anaconda.org/conda-forge/orange3-bioinformatics) |
 
 Installing orange3-bioinformatics
 =================================
