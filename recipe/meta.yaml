@@ -1,6 +1,6 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "3.2.2" %}
-{% set sha256 = "849a534bbd40d4ed872acc4b8ae917fa365b961c17c24c94afb0a347ffe8d16e" %}
+{% set version = "3.2.3" %}
+{% set sha256 = "31fdb8f8b2371f3fc55bd9de353e93b3cc5b9ff342d775714ceacdade28de59c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
   preserve_egg_dir: True
