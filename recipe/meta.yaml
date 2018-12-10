@@ -1,6 +1,6 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "3.2.5" %}
-{% set sha256 = "a816e87b75614cce89204e7cd38aa91093137199366f9f4ff0b826fe6e095b3d" %}
+{% set version = "3.2.6" %}
+{% set sha256 = "bb4cac6e1dca50c5b748b625373ace1c96e08718e4b5ab1fcb752d7474a888ac" %}
 
 package:
   name: {{ name|lower }}
@@ -32,6 +32,10 @@ requirements:
     - genesis-pyapi
 
 test:
+  commands:
+     # - pwd
+     # - python -c "help('modules')"
+
   imports:
     - orangecontrib.bioinformatics
 
