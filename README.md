@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About orange3-bioinformatics
 ============================
 
@@ -22,8 +18,17 @@ from the Orange data mining framework.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/orange3-bioinformatics-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/orange3-bioinformatics-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3146&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/orange3-bioinformatics-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
