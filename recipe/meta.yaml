@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
   preserve_egg_dir: True
@@ -32,7 +32,7 @@ requirements:
     - genesis-pyapi
     - scipy
     - numpy
-    - shapely
+    - pyclipper
 
 test:
   commands:
