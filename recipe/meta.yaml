@@ -1,6 +1,6 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "3.5.0" %}
-{% set sha256 = "b9ed303eb9375bd7f7585b2f441ca5036477a22ed772d5ee17a88b11ff62864c" %}
+{% set version = "4.0.0" %}
+{% set sha256 = "bee78b2f0010b0b6655322f058e5c940234698d5ab0884bb6dec7c839aa8d7b7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
   preserve_egg_dir: True
@@ -22,7 +22,7 @@ requirements:
     - python >=3
     - pip
     - setuptools
-
+    - setuptools_scm
   run:
     - python >=3
     - orange3
@@ -33,6 +33,7 @@ requirements:
     - scipy
     - numpy
     - pyclipper
+    - point-annotator
 
 test:
   commands:
