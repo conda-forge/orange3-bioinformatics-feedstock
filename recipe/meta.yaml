@@ -36,10 +36,11 @@ requirements:
     - point-annotator
 
 test:
+  requires:
+    - pytest
   commands:
-     # - pwd
      # - python -c "help('modules')"
-
+    - pytest --pyargs orangecontrib.bioinformatics -v 
   imports:
     - orangecontrib.bioinformatics
 
