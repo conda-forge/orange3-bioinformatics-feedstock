@@ -5,9 +5,11 @@ Home: https://github.com/biolab/orange3-bioinformatics
 
 Package license: GPL-3.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-bioinformatics-feedstock/blob/master/LICENSE.txt)
 
 Summary: Orange3 add-on with common functionality for bioinformatics
+
+Development: https://github.com/biolab/orange3-bioinformatics
 
 Orange Bioinformatics provides access to publicly available data,
 like GEO data sets, GO and KEGG. All features can be combined with
