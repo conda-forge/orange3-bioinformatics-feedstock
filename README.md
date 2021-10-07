@@ -44,6 +44,7 @@ Installing `orange3-bioinformatics` from the `conda-forge` channel can be achiev
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `orange3-bioinformatics` can be installed with:
