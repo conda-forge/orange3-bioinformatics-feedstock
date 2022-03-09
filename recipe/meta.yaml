@@ -48,7 +48,7 @@ test:
 
 about:
   home: https://github.com/biolab/orange3-bioinformatics
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: Orange3 add-on with common functionality for bioinformatics
