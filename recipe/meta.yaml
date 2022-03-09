@@ -14,7 +14,7 @@ source:
 build:
   number: 1
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
   preserve_egg_dir: true
 
 requirements:
@@ -37,12 +37,14 @@ requirements:
     - resdk >=13.3.0
 
 test:
-  commands:
-     # - pwd
-     # - python -c "help('modules')"
-
   imports:
+    - orangecontrib
     - orangecontrib.bioinformatics
+  commands:
+    - pip check
+  requires:
+    - pip
+
 
 about:
   home: https://github.com/biolab/orange3-bioinformatics
