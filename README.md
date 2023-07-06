@@ -1,11 +1,11 @@
-About orange3-bioinformatics
-============================
+About orange3-bioinformatics-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-bioinformatics-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/biolab/orange3-bioinformatics
 
 Package license: GPL-3.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-bioinformatics-feedstock/blob/main/LICENSE.txt)
 
 Summary: Orange3 add-on with common functionality for bioinformatics
 
