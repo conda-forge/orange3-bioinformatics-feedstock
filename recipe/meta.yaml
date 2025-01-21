@@ -25,7 +25,6 @@ requirements:
     - setuptools
     - setuptools_scm
     - wheel
-    - pip
   run:
     - python >={{ python_min }}
     - orange3 >=3.34.0
