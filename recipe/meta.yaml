@@ -28,6 +28,7 @@ requirements:
     - orange3
     - serverfiles
     - requests
+    - resdk >=13.3.0
     - requests-cache
     - genesis-pyapi
     - scipy
