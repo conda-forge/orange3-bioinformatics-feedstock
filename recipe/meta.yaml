@@ -8,36 +8,45 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   preserve_egg_dir: true
 
 requirements:
   host:
-    - python >=3
+    - python {{ python_min }}
     - pip
     - setuptools
     - setuptools_scm
+    - wheel
+    - pip
   run:
-    - python >=3
-    - orange3
+    - python >={{ python_min }}
+    - orange3 >=3.34.0
     - serverfiles
     - requests
-    - requests-cache
+    - resdk >=20.0.0
+    - requests-cache >=0.8.0
     - genesis-pyapi
     - scipy
     - numpy
-    - pyclipper
-    - point-annotator
+    - pyclipper >=1.2.0 
+    - point-annotator >=2.0,<3.dev0
+    - orange-widget-base >=4.19.0
+    - single-sample-gsea >=0.2.0
 
 test:
+  requires:
+    - python {{ python_min }}
+    - pip
   commands:
      # - pwd
+     - pip check
      # - python -c "help('modules')"
 
   imports:
@@ -45,7 +54,7 @@ test:
 
 about:
   home: https://github.com/biolab/orange3-bioinformatics
-  license: GPL-3.0
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: Orange3 add-on with common functionality for bioinformatics
@@ -59,5 +68,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - HeavyTony2
     - jakakokosar
     - astaric

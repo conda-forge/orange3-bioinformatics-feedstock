@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/orange3-bioinfo
 
 Home: https://github.com/biolab/orange3-bioinformatics
 
-Package license: GPL-3.0
+Package license: GPL-3.0-or-later
 
 Summary: Orange3 add-on with common functionality for bioinformatics
 
@@ -151,6 +151,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@HeavyTony2](https://github.com/HeavyTony2/)
 * [@astaric](https://github.com/astaric/)
 * [@jakakokosar](https://github.com/jakakokosar/)
 
