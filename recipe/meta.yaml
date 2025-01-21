@@ -1,6 +1,7 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "4.8.1" %}
-{% set sha256 = "bd5bd0ee939feb92656459377b670dfccd8ef8be9715d915c5bca34b2d9c5a9a" %}
+{% set version = "4.8.2" %}
+{% set sha256 = "2173bf23be2c82626f8eefe4fd0a49c6798fa338ad27d1d5a0f802baa53e0e8a" %}
+
 
 package:
   name: {{ name|lower }}
@@ -23,6 +24,7 @@ requirements:
     - pip
     - setuptools
     - setuptools_scm
+    - wheel
   run:
     - python >={{ python_min }}
     - orange3 >=3.34.0
