@@ -1,6 +1,6 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "4.8.2" %}
-{% set sha256 = "2173bf23be2c82626f8eefe4fd0a49c6798fa338ad27d1d5a0f802baa53e0e8a" %}
+{% set version = "4.8.3" %}
+{% set sha256 = "8c6aee7002f075cb2686777374ed15ae981d60f7cd9e95d488ad36fdc213c48c" %}
 
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/orange3_bioinformatics-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
