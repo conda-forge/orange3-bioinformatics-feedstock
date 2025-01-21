@@ -1,6 +1,6 @@
 {% set name = "Orange3-Bioinformatics" %}
-{% set version = "4.8.0" %}
-{% set sha256 = "b1cd188e304303f79afa1a22e92ee5aac22c8e0c1186b11a0b78860c83647949" %}
+{% set version = "4.8.1" %}
+{% set sha256 = "bd5bd0ee939feb92656459377b670dfccd8ef8be9715d915c5bca34b2d9c5a9a" %}
 
 package:
   name: {{ name|lower }}
@@ -28,7 +28,7 @@ requirements:
     - orange3 >=3.34.0
     - serverfiles
     - requests
-    - resdk >=13.8.0
+    - resdk >=20.0.0
     - requests-cache >=0.8.0
     - genesis-pyapi
     - scipy
